@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, timedelta
 import os
@@ -31,6 +31,10 @@ class Warranty(db.Model):
         }
 
 # Routes
+@app.route('/')
+def index():
+    return render_template('index.html')
+
 @app.route('/api/warranties', methods=['GET'])
 def get_warranties():
     warranties = Warranty.query.all()
@@ -67,4 +71,3 @@ def create_tables():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
