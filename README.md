@@ -63,30 +63,7 @@ A lightweight MicroSaaS application designed to manage and track digital warrant
    http://127.0.0.1:5000/
    ```
 
----
-
-## File Structure
-
 ```
-digital-warranty-vault/
-├── app.py               # Main application file
-├── requirements.txt     # List of dependencies
-├── templates/
-│   └── index.html       # Frontend HTML file
-├── static/              # (Optional) Folder for CSS/JS files
-├── README.md            # Project documentation
-└── warranties.db        # SQLite database (auto-generated)
-```
-
----
-
-## Screenshots
-
-### Add Warranty Form
-![Add Warranty Form Screenshot](https://via.placeholder.com/600x300?text=Add+Warranty+Form)
-
-### Warranty Table
-![Warranty Table Screenshot](https://via.placeholder.com/600x300?text=Warranty+Table)
 
 ---
 
@@ -101,11 +78,3 @@ Feel free to fork this repository and contribute by submitting a pull request. A
 This project is licensed under the MIT License.
 ```
 
----
-
-### **How to Use**
-1. Copy the above content and paste it into a file named `README.md` in the root of your project directory.
-2. Replace `<repository_url>` with the URL of your GitHub repository.
-3. If you have actual screenshots, upload them to your repository and update the image links accordingly.
-
-Let me know if you want to add anything else!
