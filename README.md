@@ -11,7 +11,7 @@ A MicroSaaS solution to manage and track product warranties with automated expir
 ## Installation
 1. Clone this repository:
 
-   git clone https://github.com/your-username/digital-warranty-vault.git
+   git clone https://github.com/Onkar3333/digital-warranty-vault.git
    
 2. Navigate to the project folder:
 cd digital-warranty-vault
