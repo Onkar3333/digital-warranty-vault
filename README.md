@@ -1,8 +1,3 @@
-Here’s the content for the `README.md` file for your GitHub repository. Save this file in the root directory of your project as `README.md`.
-
----
-
-### **README.md**
 
 ```markdown
 # Digital Warranty Vault
